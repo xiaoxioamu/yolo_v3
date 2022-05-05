@@ -1,0 +1,66 @@
+# Repo-specific GitIgnore*.jpg -------------------------------------------------------------------------------------------
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.JPG
+*.JPEG
+*.PNG
+*.BMP
+*.TIF
+*.TIFF
+*.HEIC
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.data
+*.json
+*.xml
+*.pth
+# Datasets
+
+# Neural Network Weights --------------------------------------------------------------------------------------------------
+*.weights
+*.pt
+*.pb
+*.onnx
+*.mlmodel
+*.torchscript
+*.tflite
+*.h5
+*_saved_model/
+*_web_model/
+weights/darknet53.conv.74
+
+# GitHub Python Ignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+pytorchyolo/__pycache__
+pytorchyolo/utils/__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoint
+
+# pyenv
+.python-version
+
+# Ignore folder
+.idea
+.vscode
+data/
+logs/
+runs/
+logs/
+output/
+checkpoint/
+weights/
+
+# virtualenv
+.venv*
+venv*/
+ENV*/
+
+
